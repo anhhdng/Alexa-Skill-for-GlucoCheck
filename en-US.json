@@ -1,0 +1,141 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "gluco check",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "HelloWorldIntent",
+          "slots": [],
+          "samples": [
+            "hello",
+            "how are you",
+            "say hi world",
+            "say hi",
+            "hi",
+            "say hello world",
+            "say hello"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "LastValueIntent",
+          "slots": [
+            {
+              "name": "last",
+              "type": "last"
+            }
+          ],
+          "samples": [
+            "{last} point",
+            "{last} value",
+            "give me {last} value",
+            "give me the {last} value",
+            "tell me the {last} value",
+            "tell me my {last} value",
+            "what\u0027s my {last} value",
+            "what is my {last} value",
+            "what\u0027s the {last} value",
+            "what is the {last} value"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "present glucose"
+              }
+            },
+            {
+              "name": {
+                "value": "most recent glucose"
+              }
+            },
+            {
+              "name": {
+                "value": "today glucose"
+              }
+            },
+            {
+              "name": {
+                "value": "current glucose"
+              }
+            },
+            {
+              "name": {
+                "value": "last glucose"
+              }
+            },
+            {
+              "name": {
+                "value": "today"
+              }
+            },
+            {
+              "name": {
+                "value": "right now"
+              }
+            },
+            {
+              "name": {
+                "value": "most recent"
+              }
+            },
+            {
+              "name": {
+                "value": "most current"
+              }
+            },
+            {
+              "name": {
+                "value": "recent"
+              }
+            },
+            {
+              "name": {
+                "value": "present"
+              }
+            },
+            {
+              "name": {
+                "value": "now"
+              }
+            },
+            {
+              "name": {
+                "value": "current"
+              }
+            },
+            {
+              "name": {
+                "value": "last"
+              }
+            }
+          ],
+          "name": "last"
+        }
+      ]
+    }
+  },
+  "version": "7"
+}
